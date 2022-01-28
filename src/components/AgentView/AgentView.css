@@ -1,0 +1,16 @@
+@keyframes fade-glow {
+    0% {
+        box-shadow: 0 0 0px #04ff00;
+    }
+    50% {
+        box-shadow: 0 0 10px #04ff00;
+    }
+    100% {
+        box-shadow: 0 0 0px #04ff00;
+    }
+}
+
+.userImage {
+    border: 1px solid #00bf49;
+    animation: fade-glow 3s infinite;
+}
