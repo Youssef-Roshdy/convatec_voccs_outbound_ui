@@ -1,5 +1,5 @@
 runtime: nodejs12
-service: convatec-ob-ui
+service: convatec-ob-ui-test
 
 handlers:
 - url: /api/.*
