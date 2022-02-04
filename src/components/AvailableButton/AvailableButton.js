@@ -35,6 +35,7 @@ function AvailableButton({agentStatus, dial, phoneNumber, setPhoneNumber}) {
                 <Button 
                     id="button-call"
                     colorScheme="blue"
+                    disabled
                 >
                     Dial
                 </Button>

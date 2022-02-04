@@ -71,8 +71,8 @@ var ConnectToTwilio = function(
 
       device.on("connect", function(conn) {
         console.log("CONNECTED: ", conn);
-        document.getElementById("button-call").disable = false
-        document.getElementById("button-call").style.background = ''
+        // document.getElementById("button-call").disable = false
+        // document.getElementById("button-call").style.background = ''
         let taskSid = document.getElementById('task-sid').value;
         console.log("TaskSid: ", taskSid);
         toggleDial(false)
@@ -188,8 +188,8 @@ var ConnectToTwilio = function(
         outboundCall = true;
         console.log("Setting outboundCall to TRUE")
         outgoingConnection.on("ringing", function() {
-          document.getElementById("button-call").disable = true
-          document.getElementById("button-call").style.background = '#616a01ba'
+          // document.getElementById("button-call").disable = true
+          // document.getElementById("button-call").style.background = '#616a01ba'
 
           toggleDial(true)
           displayToast("Ringing", "Calling " + params.outboundTo, "success")
