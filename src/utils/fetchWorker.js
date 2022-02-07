@@ -24,8 +24,6 @@ function registerTaskRouterCallbacks(
           console.log(data[i]);
           if (data[i].reservationStatus === "accepted") {
             changeWorkerActivity('OnTask', voiceToken);
-            document.getElementById('task-sid').value = data[i].taskSid
-            document.getElementById('worker-sid').value = data[i].workerSid
             document.getElementById("crm-iframe").src = `${LARAVEL_CRM_URL}entryform/?phone=${data[i].task.attributes.name}&did=${data[i].task.attributes.to}&caseid=${data[i].task.attributes.case_id}&worker_sid=${data[i].workerSid}&customer_id=${data[i].task.attributes.customer_id}}`;
           }
         }

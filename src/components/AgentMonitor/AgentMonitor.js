@@ -122,6 +122,7 @@ export default function AgentMonitor({ screenMode, token, tabIndex }){
                             <option value="Offline">Offline</option>
                             <option style={{display:'none'}} value="Unavailable/Missed">Unavailable/Missed</option>
                             <option value="Available">Available</option>
+                            <option value="Standby">Standby</option>
                             <option value="Break">Break</option>
                             <option value="Bio-Break">Bio-Break</option>
                             <option value="Training/Supervisor">Training/Supervisor</option>
@@ -249,6 +250,7 @@ export default function AgentMonitor({ screenMode, token, tabIndex }){
                                 <option value="Offline">Offline</option>
                                 <option style={{display:'none'}} value="Unavailable/Missed">Unavailable/Missed</option>
                                 <option value="Available">Available</option>
+                                <option value="Standby">Standby</option>
                                 <option value="Break">Break</option>
                                 <option value="Bio-Break">Bio-Break</option>
                                 <option value="Training/Supervisor">Training/Supervisor</option>

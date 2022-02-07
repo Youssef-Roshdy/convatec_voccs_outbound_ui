@@ -48,7 +48,7 @@ function App() {
                   src="/vcloud-logo-small.png"
                   alt="VCloud Agent Icon"
                 />
-                <Badge style={{marginTop: "21px"}} fontSize="1xl" colorScheme='purple'>CONVATEC</Badge>
+                <Badge style={{marginTop: "21px"}} fontSize="1xl" colorScheme='purple'>OUTBOUND</Badge>
               </HStack>
             <TabList>
               <Tab>Phone</Tab>
